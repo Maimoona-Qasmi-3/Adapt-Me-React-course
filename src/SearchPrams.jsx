@@ -66,6 +66,6 @@ const SearchParams = () => {
                     <Results pets={pets}/>
         </div>
     )
-}
+} 
 
 export default SearchParams;
