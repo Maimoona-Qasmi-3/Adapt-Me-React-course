@@ -28,8 +28,13 @@ const SearchParams = () => {
         <div className="search-params">
             <form onSubmit={e => {e.preventDefault();
             requestPets();}}>
-                <label htmlFor="LOCATION">Location
-                <input id="location" value={location} onChange={e => setLocation(e.target.value)} placeholder="Location" />
+                <label htmlFor="LOCATION"> 
+                 Location
+                <input 
+                id="location" 
+                value={location} 
+                onChange={e => setLocation(e.target.value)} 
+                placeholder="Location" />
                 </label>  
                 <label htmlFor="animals">
                 Animal
@@ -44,7 +49,7 @@ const SearchParams = () => {
                 <option />
                 {ANIMALS.map(animal => (
                     <option key={animal}>{animal}</option>
-                ))}
+                ))} 
                 </select>
                 </label>
                 <label htmlFor="breed">
