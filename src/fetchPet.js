@@ -9,4 +9,4 @@ const fetchPet = async ({queryKey}) => {
     return apiRest.json();
 };
 
-export default fetchPet;
+export default fetchPet; 
